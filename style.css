@@ -1,0 +1,76 @@
+*
+{
+    margin : 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body
+{
+    min-height: 100vh ;
+    background : linear-gradient(135deg, #49243E, #704264, #BB8493, #DBAFA0);
+}
+.app {
+    background: linear-gradient(45deg, #B3C8CF, #BED7DC, #F1EEDC, #E5DDC5);
+    width : 90%;
+    max-width: 600px;
+    margin : 100px auto 0px ;
+    border-radius: 10px;
+    padding : 30px ;
+
+}
+
+.app h1{
+    font-size : 25px ;
+    color : #453F78;
+    border-bottom: 1px solid #0C0C0C;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.quiz {
+    padding : 20px 0px ;
+}
+.quiz h2 {
+    font-size: 18px;
+    color: #795458;
+    font-weight: 600;
+}
+.btn {
+    background :#F8F6E3;
+    color : #7AA2E3;
+    font-weight: 500;
+    width : 100% ;
+    border : 1px solid #C08B5C ;
+    padding : 10px ;
+    margin : 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor : pointer; 
+}
+
+.btn:hover:not([disabled]) {
+    background: #E5DDC5;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#next-button {
+    background : #D2D180;
+    color : #114232;
+    font-weight: 500;
+    width : 150px ;
+    border : 0 ;
+    padding : 10px ;
+    margin : 20px auto 0px ;
+    border-radius : 4px;
+    cursor : pointer ;
+    display: none;
+}
+
+.correct {
+    background: #C6EBC5;
+}
+
+.incorrect {
+    background: #df6464;
+}
